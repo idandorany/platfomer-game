@@ -192,8 +192,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1476792675
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f680ecf58aedd1046a9a6acc89c0708d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 0000000063110658
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -495,8 +495,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1476792675
+  m_SortingLayer: -1
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: cbecc67e8efffba45a812029bd5cbf1d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -534,7 +534,7 @@ Transform:
   m_GameObject: {fileID: 1153809347}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0572373, y: 0.21226726, z: 0.03426976}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -613,8 +613,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1476792675
+  m_SortingLayer: -1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 9caeef2007d6d3a4fb4d7af317b170c0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -627,6 +627,154 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1975813227 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 960344971722794381, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+  m_PrefabInstance: {fileID: 6390575443003043448}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1975813231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975813227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 14f8612f8ae26b34190533e00119d42c, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7ac254a7-4245-435b-8f1c-bb4ca06cd0f0
+    m_ActionName: Player/Move[/DualSenseGamepadHID/leftStick,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 482f86eb-519b-41dd-8cbd-dca67005bfd8
+    m_ActionName: Player/Look[/DualSenseGamepadHID/rightStick,/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 70558fae-4ba1-4f7f-b0aa-e36c8ad26b21
+    m_ActionName: Player/attc[/DualSenseGamepadHID/rightTrigger,/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ae2223d6-39c5-430d-b49a-8b527947d30d
+    m_ActionName: UI/Navigate[/DualSenseGamepadHID/leftStick/up,/DualSenseGamepadHID/rightStick/up,/DualSenseGamepadHID/leftStick/down,/DualSenseGamepadHID/rightStick/down,/DualSenseGamepadHID/leftStick/left,/DualSenseGamepadHID/rightStick/left,/DualSenseGamepadHID/leftStick/right,/DualSenseGamepadHID/rightStick/right,/DualSenseGamepadHID/dpad,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7ba35e6b-bfae-475a-b981-64ae309e9f98
+    m_ActionName: UI/Submit[/Keyboard/enter,/DualSenseGamepadHID/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 41e55293-e6cc-43f3-98c1-4d373fa363a1
+    m_ActionName: UI/Cancel[/Keyboard/escape,/DualSenseGamepadHID/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 978b6ac1-5bf7-4c2a-b7fd-1307fb008350
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3a0c8ca5-2af4-4c51-b616-1207c0c39f3e
+    m_ActionName: UI/Click[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9d8bf48f-893d-413c-9f49-09857ed0adab
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7f5a686b-2026-451d-b96f-9c06bfa24d9f
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 90392354-bad1-4d8b-9f82-8b3fe1b05d9d
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9c493bb4-4b7d-4d50-ae2e-f43ac2724f0c
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5e1c8ae6-355b-426e-9559-14d4da40eccc
+    m_ActionName: UI/TrackedDeviceOrientation
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!1001 &6390575443003043448
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 960344971722794381, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_Name
+      value: PLAYER
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810662770666056259, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.065944
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810662770666056259, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.771874
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810662770666056259, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.006874265
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810662770666056259, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810662770666056259, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810662770666056259, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810662770666056259, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810662770666056259, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810662770666056259, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810662770666056259, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2714103746185856424, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 960344971722794381, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1975813231}
+  m_SourcePrefab: {fileID: 100100000, guid: 80ef287d732e2ca49a08cfe72464d72d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -634,3 +782,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1153809348}
+  - {fileID: 6390575443003043448}
